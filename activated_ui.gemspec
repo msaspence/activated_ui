@@ -1,0 +1,24 @@
+$:.push File.expand_path("../lib", __FILE__)
+
+# Maintain your gem's version:
+require "activated_ui/version"
+
+# Describe your gem and declare its dependencies:
+Gem::Specification.new do |s|
+  s.name        = "activated_ui"
+  s.version     = ActivatedLinkTo::VERSION
+  s.authors     = ["Matthew Spence"]
+  s.email       = ["msaspence@gmail.com"]
+  s.homepage    = "http://github.com/msaspence/activated_ui"
+  s.summary     = "Activated UI, is a collection of helpers to activate UI element."
+  s.description = "Activated UI, is a collection of helpers to activate UI element, it achieves a similar end goal to active_link_to but you control the active state through method calls rather than the helpers inferring it from the url."
+
+  s.files = Dir["{app,config,db,lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.rdoc"]
+  s.test_files = Dir["spec/**/*"]
+
+  s.add_development_dependency 'rails', "~> 3.2.13"
+  s.add_development_dependency 'rspec-rails'
+  s.add_development_dependency 'spork-rails'
+  s.add_development_dependency 'fuubar'
+
+end

@@ -10,10 +10,10 @@ Gem::Specification.new do |s|
   s.authors     = ["Matthew Spence"]
   s.email       = ["msaspence@gmail.com"]
   s.homepage    = "http://github.com/msaspence/activated_ui"
-  s.summary     = "Activated UI, is a collection of helpers to activate UI element."
-  s.description = "Activated UI, is a collection of helpers to activate UI element, it achieves a similar end goal to active_link_to but you control the active state through method calls rather than the helpers inferring it from the url."
+  s.summary     = "Activated UI, is a collection of helpers to activate UI elements."
+  s.description = "Activated UI, is a collection of helpers to activate UI elements, it achieves a similar end goal to active_link_to but you control the active state through method calls rather than the helpers inferring it from the url."
 
-  s.files = Dir["{app,config,db,lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.rdoc"]
+  s.files = Dir["{app,config,db,lib}/**/*"] + ["MIT-LICENSE", "README.md"]
   s.test_files = Dir["spec/**/*"]
 
   s.add_development_dependency 'rails', "~> 3.2.13"

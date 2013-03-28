@@ -52,9 +52,11 @@ By default the returned class is 'active', but you can change this:
 
 ActivatedUI isn't dependant on Rails but if you are using it with Rails here's how:
 
-    class PostsController < ActionController::Base
-
+    class ApplicationController < ActionController::Base
       include ActivatedUI
+    end
+
+    class PostsController < ApplicationController
 
       activate_ui_marked :posts # Adds :key to the active state using a call to before_filter
       activate_ui_marked :posts, :only => [:show] # It will pass on any options, so you can use before_filter's :only and :except options

@@ -6,7 +6,7 @@ require "activated_ui/version"
 # Describe your gem and declare its dependencies:
 Gem::Specification.new do |s|
   s.name        = "activated_ui"
-  s.version     = ActivatedLinkTo::VERSION
+  s.version     = ActivatedUI::VERSION
   s.authors     = ["Matthew Spence"]
   s.email       = ["msaspence@gmail.com"]
   s.homepage    = "http://github.com/msaspence/activated_ui"

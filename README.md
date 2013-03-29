@@ -1,6 +1,8 @@
 # ActivatedUI
 
+[![Build Status](https://travis-ci.org/msaspence/activated_ui.png?branch=master)](https://travis-ci.org/msaspence/activated_ui)
 [![Code Climate](https://codeclimate.com/github/msaspence/activated_ui.png)](https://codeclimate.com/github/msaspence/activated_ui)
+[![Dependency Status](https://gemnasium.com/msaspence/activated_ui.png)](https://gemnasium.com/msaspence/activated_ui)
 
 ActivatedUI, is a collection of helpers to set and manage the active state of UI elements. It is similar to [active\_link\_to](https://github.com/twg/active_link_to) in that it is designed to help control the active state of UI elements for you. However where active\_link\_to infers the active state from the current url, ActivatedUI enables you to explicitly state it.
 

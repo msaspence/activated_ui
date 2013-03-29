@@ -6,5 +6,4 @@ pkg/
 *.sublime-workspace
 
 Gemfile.lock
-RakeFile
 

@@ -5,7 +5,6 @@ pkg/
 *.sublime-project
 *.sublime-workspace
 
-Gemfile
 Gemfile.lock
 RakeFile
 

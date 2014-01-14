@@ -91,3 +91,7 @@ It behaves the same way as `link_to` except there is an additional first argumen
 
 
 
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/msaspence/activated_ui/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+

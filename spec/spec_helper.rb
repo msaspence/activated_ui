@@ -3,6 +3,7 @@ Coveralls.wear!
 require 'rubygems'
 require 'spork'
 require 'rails/all'
+require 'active_support/dependencies'
 
 #uncomment the following line to use spork with the debugger
 # require 'spork/ext/ruby-debug'

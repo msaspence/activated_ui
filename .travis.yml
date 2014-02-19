@@ -8,8 +8,7 @@ before_install:
   - gem --version
   - gem install bundler
 env:
-  - RAILS=3.2.13
-  - RAILS=3.2.16
-  - RAILS=4.0.2
+  - RAILS=3.2.17
+  - RAILS=4.0.3
 matrix:
   allow_failures:

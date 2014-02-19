@@ -1,8 +1,10 @@
 # ActivatedUI
 
-[![Build Status](https://travis-ci.org/msaspence/activated_ui.png?branch=master)](https://travis-ci.org/msaspence/activated_ui)
-[![Code Climate](https://codeclimate.com/github/msaspence/activated_ui.png)](https://codeclimate.com/github/msaspence/activated_ui)
+[![Gem Version](https://badge.fury.io/rb/activated_ui.png)](http://badge.fury.io/rb/activated_ui)
 [![Dependency Status](https://gemnasium.com/msaspence/activated_ui.png)](https://gemnasium.com/msaspence/activated_ui)
+[![Build Status](https://travis-ci.org/msaspence/activated_ui.png?branch=master)](https://travis-ci.org/msaspence/activated_ui)
+[![Coverage Status](https://coveralls.io/repos/msaspence/activated_ui/badge.png)](https://coveralls.io/r/msaspence/activated_ui)
+[![Code Climate](https://codeclimate.com/github/msaspence/activated_ui.png)](https://codeclimate.com/github/msaspence/activated_ui)
 [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/msaspence/activated_ui/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
 
 ActivatedUI, is a collection of helpers to set and manage the active state of UI elements. It is similar to [active\_link\_to](https://github.com/twg/active_link_to) in that it is designed to help control the active state of UI elements for you. However where active\_link\_to infers the active state from the current url, ActivatedUI enables you to explicitly state it.

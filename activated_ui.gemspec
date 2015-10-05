@@ -16,10 +16,10 @@ Gem::Specification.new do |s|
   s.files = Dir["{app,config,db,lib}/**/*"] + ["MIT-LICENSE", "README.md"]
   s.test_files = Dir["spec/**/*"]
 
-  s.add_development_dependency 'rails', "~> 3.2.17"
-  s.add_development_dependency 'rspec-rails'
-  s.add_development_dependency 'spork-rails'
-  s.add_development_dependency 'fuubar'
-  s.add_development_dependency 'coveralls'
+  s.add_development_dependency 'rails', "~> 3.2.22"
+  s.add_development_dependency 'rspec-rails', "~> 3.3.3"
+  s.add_development_dependency 'spork-rails', "~> 3.2.1"
+  s.add_development_dependency 'fuubar', "~> 2.0.0"
+  s.add_development_dependency 'coveralls', "~> 0.8.0"
 
 end

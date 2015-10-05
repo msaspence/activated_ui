@@ -4,9 +4,3 @@ source "http://rubygems.org"
 # Bundler will treat runtime dependencies like base dependencies, and
 # development dependencies will be added by default to the :development group.
 gemspec
-
-gem 'rails', "~> 3.2.17"
-gem 'rspec-rails'
-gem 'spork-rails'
-gem 'fuubar'
-gem 'coveralls', require: false
